@@ -2,6 +2,8 @@
 
 一个 **Omarchy** 浅色主题：奶油纸色的底、叶子绿的重点、海风蓝的点缀，还有三张原创的手绘风壁纸。慢一点也没关系。
 
+🌙 **夜间模式**：[omarchy-animal-crossing-night-theme](https://github.com/junbaor/omarchy-animal-crossing-night-theme) — 星夜小岛与萤火虫的姊妹主题。
+
 ![主题预览](preview.png)
 
 ## 壁纸
@@ -48,6 +50,12 @@ omarchy theme set 动物森友会
 2. 运行 `omarchy theme refresh` 重新生成所有应用配置
 
 终端、Neovim、btop、VS Code、GTK、fcitx5、菜单/通知/锁屏等配置都会从 `colors.toml` 自动生成，不用手动改。
+
+## 配套主题
+
+- 🌙 夜间版：[omarchy-animal-crossing-night-theme](https://github.com/junbaor/omarchy-animal-crossing-night-theme)
+
+白天用奶油色小岛，晚上切到星夜萤火，`omarchy theme switcher` 一键换。
 
 ## 文件结构
 
