@@ -1,0 +1,128 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="dusksky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE2B4"/>
+      <stop offset="0.55" stop-color="#FFC692"/>
+      <stop offset="1" stop-color="#FF9F80"/>
+    </linearGradient>
+    <linearGradient id="dusksea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8A583"/>
+      <stop offset="0.25" stop-color="#9ABFC2"/>
+      <stop offset="1" stop-color="#5E98AC"/>
+    </linearGradient>
+    <radialGradient id="dusksun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFEDA8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFEDA8" stop-opacity="0"/>
+    </radialGradient>
+    <g id="silhouette-palm">
+      <path d="M-7 0 C -16 -78 -8 -158 7 -232 L 27 -227 C 14 -156 9 -78 13 0 Z"/>
+      <g transform="translate(10,-232)">
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-150)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-105)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-60)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(-18)"/>
+        <path d="M0 0 C 42 -36 104 -40 152 -14 C 106 -4 54 10 6 12 Z" transform="rotate(28)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(-128)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(-84)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(-40)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(6)"/>
+        <path d="M0 0 C 40 -32 98 -36 142 -12 C 100 -2 50 12 6 14 Z" transform="rotate(52)"/>
+      </g>
+    </g>
+  </defs>
+
+  <!-- sky -->
+  <rect width="2560" height="870" fill="url(#dusksky)"/>
+
+  <!-- sun -->
+  <circle cx="1280" cy="700" r="380" fill="url(#dusksun)"/>
+  <circle cx="1280" cy="700" r="120" fill="#FFDE96"/>
+
+  <!-- warm streak clouds -->
+  <g fill="#FFE0C2" opacity="0.85">
+    <ellipse cx="420" cy="240" rx="190" ry="20"/>
+    <ellipse cx="560" cy="285" rx="120" ry="13" opacity="0.7"/>
+    <ellipse cx="2120" cy="200" rx="220" ry="22"/>
+    <ellipse cx="1980" cy="250" rx="130" ry="14" opacity="0.7"/>
+    <ellipse cx="1660" cy="380" rx="150" ry="14" opacity="0.6"/>
+    <ellipse cx="880" cy="420" rx="130" ry="12" opacity="0.6"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#7C5A54" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M820 300 q 16 -14 32 0 q 16 -14 32 0"/>
+    <path d="M1750 260 q 14 -12 28 0 q 14 -12 28 0"/>
+    <path d="M1620 330 q 12 -10 24 0 q 12 -10 24 0"/>
+  </g>
+
+  <!-- sea -->
+  <rect y="860" width="2560" height="580" fill="url(#dusksea)"/>
+  <rect y="860" width="2560" height="5" fill="#FFE7BC" opacity="0.7"/>
+
+  <!-- sun reflection -->
+  <g fill="#FFD9A0">
+    <ellipse cx="1280" cy="900" rx="330" ry="26" opacity="0.55"/>
+    <ellipse cx="1280" cy="960" rx="240" ry="22" opacity="0.45"/>
+    <ellipse cx="1280" cy="1040" rx="170" ry="18" opacity="0.35"/>
+    <ellipse cx="1280" cy="1130" rx="120" ry="14" opacity="0.28"/>
+    <ellipse cx="1280" cy="1230" rx="80" ry="11" opacity="0.22"/>
+  </g>
+
+  <!-- waves -->
+  <g stroke="#FFE2B8" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M420 980 q 40 -18 80 0"/>
+    <path d="M1980 950 q 34 -16 68 0"/>
+    <path d="M700 1120 q 44 -20 88 0"/>
+    <path d="M1720 1140 q 40 -18 80 0"/>
+    <path d="M330 1290 q 48 -22 96 0"/>
+    <path d="M1050 1330 q 44 -20 88 0"/>
+    <path d="M2350 1260 q 44 -20 88 0"/>
+  </g>
+
+  <!-- far islands -->
+  <path d="M60 860 C 140 822 260 822 340 860 Z" fill="#5D7F72" opacity="0.85"/>
+  <path d="M2180 860 C 2280 812 2440 812 2540 860 Z" fill="#5D7F72" opacity="0.85"/>
+  <g transform="translate(2430,845) scale(0.5)" fill="#4A6B5C" opacity="0.9">
+    <use xlink:href="#silhouette-palm"/>
+  </g>
+
+  <!-- pier -->
+  <g>
+    <rect x="1902" y="1210" width="26" height="150" rx="6" fill="#5E3F26"/>
+    <rect x="2246" y="1190" width="26" height="170" rx="6" fill="#5E3F26"/>
+    <rect x="2480" y="1170" width="26" height="190" rx="6" fill="#5E3F26"/>
+    <path d="M1780 1240 L2560 1200 L2560 1290 L1780 1330 Z" fill="#8A5E36"/>
+    <g stroke="#6E4A2B" stroke-width="8">
+      <line x1="1900" y1="1234" x2="1896" y2="1326"/>
+      <line x1="2030" y1="1227" x2="2027" y2="1319"/>
+      <line x1="2160" y1="1220" x2="2158" y2="1312"/>
+      <line x1="2290" y1="1213" x2="2289" y2="1305"/>
+      <line x1="2420" y1="1206" x2="2420" y2="1298"/>
+    </g>
+    <path d="M1780 1240 L2560 1200 L2560 1216 L1780 1256 Z" fill="#A5713F"/>
+    <!-- lantern -->
+    <line x1="1960" y1="1232" x2="1960" y2="1140" stroke="#5E3F26" stroke-width="8"/>
+    <circle cx="1960" cy="1124" r="20" fill="#FFE08A"/>
+    <circle cx="1960" cy="1124" r="34" fill="#FFE08A" opacity="0.35"/>
+  </g>
+
+  <!-- foreground shore bottom left -->
+  <path d="M-60 1440 L-60 1060 C 200 1000 420 1020 620 1090 C 780 1146 900 1240 960 1440 Z" fill="#3E6B45"/>
+  <path d="M-60 1440 L-60 1100 C 180 1048 380 1066 560 1126 C 700 1174 810 1260 870 1440 Z" fill="#345A3B"/>
+
+  <g transform="translate(180,1085) scale(1.25)" fill="#2C4D33">
+    <use xlink:href="#silhouette-palm"/>
+  </g>
+  <g transform="translate(470,1112) scale(0.95)" fill="#2C4D33">
+    <use xlink:href="#silhouette-palm"/>
+  </g>
+
+  <!-- fireflies -->
+  <g fill="#FFF2C0">
+    <circle cx="760" cy="1180" r="8" opacity="0.9"/>
+    <circle cx="860" cy="1060" r="6" opacity="0.7"/>
+    <circle cx="640" cy="980" r="6" opacity="0.7"/>
+    <circle cx="1050" cy="1240" r="7" opacity="0.8"/>
+    <circle cx="1500" cy="1290" r="6" opacity="0.6"/>
+  </g>
+</svg>

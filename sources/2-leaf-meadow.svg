@@ -1,0 +1,37 @@
+<svg width="2560" height="1440" viewBox="0 0 2560 1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="leaf">
+      <path d="M0 -58 C 34 -52 52 -22 44 12 C 36 42 4 58 -20 46 C -44 34 -50 4 -38 -22 C -30 -42 -16 -54 0 -58 Z"/>
+      <path d="M-6 -46 C -2 -20 0 8 2 34" stroke="#FBF5E6" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M-6 50 q -10 16 -24 22" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <g id="bloom">
+      <g>
+        <ellipse cx="0" cy="-17" rx="10" ry="14"/>
+        <ellipse cx="0" cy="-17" rx="10" ry="14" transform="rotate(72 0 -2)"/>
+        <ellipse cx="0" cy="-17" rx="10" ry="14" transform="rotate(144 0 -2)"/>
+        <ellipse cx="0" cy="-17" rx="10" ry="14" transform="rotate(216 0 -2)"/>
+        <ellipse cx="0" cy="-17" rx="10" ry="14" transform="rotate(288 0 -2)"/>
+      </g>
+      <circle cx="0" cy="-2" r="9"/>
+    </g>
+    <pattern id="meadow" width="560" height="560" patternUnits="userSpaceOnUse">
+      <use xlink:href="#leaf" transform="translate(150,150) rotate(-18) scale(1.6)" fill="#ABCF8E" opacity="0.5"/>
+      <use xlink:href="#leaf" transform="translate(430,105) rotate(26) scale(1.05)" fill="#CFE09E" opacity="0.55"/>
+      <use xlink:href="#leaf" transform="translate(120,430) rotate(42) scale(1.15)" fill="#A9DCE4" opacity="0.5"/>
+      <use xlink:href="#leaf" transform="translate(445,425) rotate(-42) scale(1.35)" fill="#8CC271" opacity="0.42"/>
+      <use xlink:href="#bloom" transform="translate(300,315) scale(1.25)" fill="#F5B9B0" opacity="0.6"/>
+      <use xlink:href="#bloom" transform="translate(50,270) scale(0.9) rotate(20)" fill="#F2D98A" opacity="0.6"/>
+      <use xlink:href="#bloom" transform="translate(520,265) scale(0.85)" fill="#F6C6CE" opacity="0.55"/>
+      <circle cx="240" cy="60" r="9" fill="#E8D9A8" opacity="0.6"/>
+      <circle cx="500" cy="330" r="7" fill="#D9E6C3" opacity="0.7"/>
+      <circle cx="60" cy="520" r="8" fill="#F2E3B8" opacity="0.6"/>
+      <circle cx="330" cy="500" r="7" fill="#BFD9C0" opacity="0.6"/>
+      <circle cx="560" cy="60" r="8" fill="#F2E3B8" opacity="0.55"/>
+      <circle cx="180" cy="330" r="6" fill="#EFD9D2" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="2560" height="1440" fill="#FBF5E6"/>
+  <rect width="2560" height="1440" fill="url(#meadow)"/>
+</svg>

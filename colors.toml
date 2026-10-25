@@ -1,0 +1,34 @@
+# 动物森友会 (Animal Crossing) — cream paper, leaf green, sea blue
+mode = "light"
+
+accent = "#3B7A2E"
+selection = "#E7F0D4"
+selection_foreground = "#3A2D20"
+selection_background = "#E7F0D4"
+muted = "#7C6B54"
+
+background = "#FBF5E6"
+dark_background = "#F3EAD5"
+darker_background = "#EADFC5"
+lighter_background = "#FFFBF0"
+
+foreground = "#4A3B2B"
+dark_foreground = "#8B7A62"
+light_foreground = "#63523D"
+bright_foreground = "#3A2D20"
+
+red = "#C34F4B"
+yellow = "#9C6F0A"
+orange = "#A85E1B"
+green = "#3F7D32"
+cyan = "#26787C"
+blue = "#2F6F99"
+magenta = "#A35A89"
+brown = "#8B5E3C"
+
+bright_red = "#D0554F"
+bright_yellow = "#B07E12"
+bright_green = "#4C8C2B"
+bright_cyan = "#2F8A8E"
+bright_blue = "#3E86B5"
+bright_magenta = "#B86A9B"
